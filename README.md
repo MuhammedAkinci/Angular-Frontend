@@ -1,5 +1,5 @@
 # Angular-Frontend
- Angular Frontend CRUD işlemleri
+ Angular Frontend CRUD işlemleri...
  Not: npm i komutunu vs code içine yazın
 
 Frontend kısmımızda aşamalar halinde ilerledik. Web sitemiz aslında 3 kısımdan oluşmaktadır. Bunlardan birincisi aktif verilerin liste halinde gözüktüğü 'Employees' ana sayfamız. Buradan veri ekleme, silme ve aktif veriyi değiştirme gibi işlemleri yaptıktan sonra elimizdeki verileri görebiliriz.
