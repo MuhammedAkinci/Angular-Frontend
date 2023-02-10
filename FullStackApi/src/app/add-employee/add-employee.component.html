@@ -1,0 +1,43 @@
+<div class="container my-5">
+    <h2 class="mb-3">Add New Employee</h2>
+
+    <form #form="ngForm">
+        <div class="form-group mb-3">
+            <div class="col-6">
+                <form [formGroup]="employeeForm" id="employeeForm" (ngSubmit)="SendEmployee()">
+                    <div class="form-group mb-3">
+                        <div class="form-group mb-3">
+                            <input type="text" name="name" id="name" class="form-control" formControlName="name"
+                                required placeholder="Entry Name"/>
+                        </div>
+                    </div>
+                    <div class="form-group mb-3">
+                        <div class="form-group mb-3">
+                            <input type="email" name="email" id="email" class="form-control" formControlName="email"
+                                required placeholder="Entry email"/>
+                        </div>
+                    </div>
+                    <div class="form-group mb-3">
+                        <div class="form-group mb-3">
+                            <input type="number" name="phone" id="phone" class="form-control" formControlName="phone"
+                                required placeholder="Entry phone number"/>
+                        </div>
+                    </div>
+                    <div class="form-group mb-3">
+                        <div class="form-group mb-3">
+                            <input type="number" name="salary" id="salary" class="form-control" formControlName="salary"
+                                required placeholder="Salary"/>
+                        </div>
+                    </div>
+                    <div class="form-group mb-3">
+                        <div class="form-group mb-3">
+                            <input type="text" name="department" id="departmant" class="form-control"
+                                formControlName="department" required placeholder="department" />
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </form>
+</div>
